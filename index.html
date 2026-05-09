@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarany de Bagé | O maior campeão gaúcho do interior.</title>
+    <meta name="description"
+        content="Site Oficial do Guarany Futebol Clube de Bagé. Acompanhe os jogos, seja sócio e faça parte da nação alvirrubra.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader-logo">GUARANY</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo"><img src="assets/logo.png" alt="Logo Guarany"></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#next-match">Próxima Partida</a></li>
+            <li><a href="#membership">Seja Sócio</a></li>
+            <li><a href="#squad">Conheça o Elenco</a></li>
+        </ul>
+        <button class="btn btn-outline">Vire Sócio e Apoie o Índio</button>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero-bg.png" alt="Estádio do Guarany de Bagé">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h2 class="subtitle fade-up">O Índio da Rainha da Fronteira</h2>
+            <h1 class="title fade-up delay-1">GUARANY DE BAGÉ</h1>
+            <p class="description fade-up delay-2">Tradição, raça e paixão alvirrubra desde 1907. Faça parte da nossa
+                história.</p>
+            <div class="cta-group fade-up delay-3">
+                <a href="#membership" class="btn btn-primary">Seja Sócio-Torcedor</a>
+                <a href="#next-match" class="btn btn-secondary">Próximo Jogo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Next Match Section -->
+    <section id="next-match" class="next-match-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="badge">Campeonato Gaúcho</span>
+                <h2>Próxima Batalha</h2>
+            </div>
+
+            <div class="match-card scale-in">
+                <div class="match-card-bg">
+                    <img src="assets/hero-bg.png" alt="Estádio Background">
+                    <div class="match-overlay"></div>
+                </div>
+
+                <div class="team team-home">
+                    <img src="assets/logo.png" alt="Guarany" class="team-logo">
+                    <h3>Guarany</h3>
+                </div>
+                
+                <div class="match-info">
+                    <div class="date" id="match-date">Sáb, 13 Mai • 19:00</div>
+                    <div class="vs">VS</div>
+                    <div class="stadium">Estádio Estrela D'Alva</div>
+                    <div class="countdown" id="countdown">
+                        <div class="time-box">
+                            <span id="days">00</span>
+                            <label>Dias</label>
+                        </div>
+                        <div class="time-box">
+                            <span id="hours">00</span>
+                            <label>Horas</label>
+                        </div>
+                        <div class="time-box">
+                            <span id="minutes">00</span>
+                            <label>Min</label>
+                        </div>
+                        <div class="time-box">
+                            <span id="seconds">00</span>
+                            <label>Seg</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team team-away">
+                    <div class="team-logo away-logo-placeholder"></div>
+                    <h3>Adversário</h3>
+                </div>
+            </div>
+            <div class="match-actions fade-up">
+                <button class="btn btn-primary">Comprar Ingressos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership-section">
+        <div class="membership-bg"></div>
+        <div class="container">
+            <div class="membership-content fade-right">
+                <h2 class="title">Sócio Índio da Fronteira</h2>
+                <p>O Guarany precisa de você. Escolha seu plano, tenha acesso garantido aos jogos no Estrela D'Alva e
+                    descontos exclusivos na rede de parceiros.</p>
+                <ul class="benefits">
+                    <li><i class="icon-check"></i> Acesso livre em jogos no Estrela D'Alva</li>
+                    <li><i class="icon-check"></i> Desconto de 20% na loja oficial</li>
+                    <li><i class="icon-check"></i> Experiências exclusivas com o elenco</li>
+                </ul>
+                <button class="btn btn-primary btn-large">Associe-se Agora</button>
+            </div>
+
+            <div class="membership-cards fade-left">
+                <!-- Premium Card Design -->
+                <div class="member-card elite glassmorphism">
+                    <div class="card-header">
+                        <div class="chip"></div>
+                        <div class="contactless">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M8.5 21.3c-4.3-2-7.3-6.4-7.3-11.5M12.5 21.3c-2.3-2-3.8-5-3.8-8.3 0-3.3 1.5-6.3 3.8-8.3M16.5 21.3c-1.3-2-.7-5-.7-8.3 0-3.3-.6-6.3.7-8.3M20.5 21.3c-1-2-.5-5-.5-8.3 0-3.3-.5-6.3.5-8.3" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="plan-name">Plano Alvirrubro</h3>
+                        <div class="card-number">GFC 1907 2024 0001</div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="member-name">NOME DO SÓCIO</div>
+                        <div class="gfc-logo-small">GUARANY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Squad Section -->
+    <section id="squad" class="squad-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="badge">Temporada 2024</span>
+                <h2>Conheça o Elenco</h2>
+            </div>
+        </div>
+        <div class="squad-carousel fade-up">
+            <!-- Player Card 1 -->
+            <div class="player-card">
+                <div class="player-img">
+                    <img src="assets/player.png" alt="Jogador 1">
+                </div>
+                <div class="player-info">
+                    <span class="player-number">10</span>
+                    <h3 class="player-name">Nome do Jogador</h3>
+                    <span class="player-position">Meio-Campo</span>
+                </div>
+            </div>
+            <!-- Player Card 2 -->
+            <div class="player-card">
+                <div class="player-img">
+                    <img src="assets/player.png" alt="Jogador 2">
+                </div>
+                <div class="player-info">
+                    <span class="player-number">09</span>
+                    <h3 class="player-name">Nome do Jogador</h3>
+                    <span class="player-position">Atacante</span>
+                </div>
+            </div>
+            <!-- Player Card 3 -->
+            <div class="player-card">
+                <div class="player-img">
+                    <img src="assets/player.png" alt="Jogador 3">
+                </div>
+                <div class="player-info">
+                    <span class="player-number">01</span>
+                    <h3 class="player-name">Nome do Jogador</h3>
+                    <span class="player-position">Goleiro</span>
+                </div>
+            </div>
+            <!-- Player Card 4 -->
+            <div class="player-card">
+                <div class="player-img">
+                    <img src="assets/player.png" alt="Jogador 4">
+                </div>
+                <div class="player-info">
+                    <span class="player-number">04</span>
+                    <h3 class="player-name">Nome do Jogador</h3>
+                    <span class="player-position">Zagueiro</span>
+                </div>
+            </div>
+            <!-- Player Card 5 -->
+            <div class="player-card">
+                <div class="player-img">
+                    <img src="assets/player.png" alt="Jogador 5">
+                </div>
+                <div class="player-info">
+                    <span class="player-number">07</span>
+                    <h3 class="player-name">Nome do Jogador</h3>
+                    <span class="player-position">Ponta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>GUARANY FC</h2>
+                    <p>O Índio da Fronteira.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#next-match">Ingressos</a></li>
+                        <li><a href="#membership">Seja Sócio</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Siga-nos</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Guarany Futebol Clube de Bagé. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
